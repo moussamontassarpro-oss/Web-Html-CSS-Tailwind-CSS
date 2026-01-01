@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d10e1be995.js" crossorigin="anonymous"></script>
+    <link href="./src/css/output.css" rel="stylesheet">
+    <script src="src/js/script.js"></script>
+    <title>KLIVIO - VOTRE AVENIR AVEC NOUS</title>
+</head>
+
+<body class="bg-[#fffbeb] overflow-x-hidden cursor-magic flex flex-col min-h-screen">
+
+        <header class="sticky z-50 top-0 w-full bg-white animate-fade-in shadow-sm">
+            <nav class="container mx-auto px-6 py-4">
+        
+            <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+            <div class="flex items-center justify-between relative z-40">
+            
+            <div class="flex items-baseline gap-4 md:gap-8 animate-slide-left">
+                <a href="#" class="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:scale-110 transition-transform">Klivo.</a>
+                <a href="#" class="font-medium text-lg text-gray-700 hover:text-purple-600 transition-transform hover:scale-110 md:block hidden">Les Formations</a>
+            </div>
+            
+            <div class="items-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors hidden md:flex gap-3 px-4 py-2 flex-1 max-w-md mx-4 lg:mx-8 group animate-slide-down">
+                <input class="bg-transparent outline-none flex-1 w-full min-w-0 text-gray-700 placeholder-gray-400 cursor-magic3" type="text" placeholder="Rechercher..."> 
+                <i class="fas fa-search text-gray-700 group-hover:text-pink-600 transition-colors cursor-magic2 group-hover:scale-105"></i>
+            </div>
+            
+            <div class="flex items-center gap-4 animate-slide-right">
+                <button class="px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:bg-purple-50 rounded-full font-medium cursor-magic2 md:block hidden hover:scale-110 transition-transform cursor-pointer">
+                    Connexion
+                </button>
+                <button class="px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:bg-purple-50 rounded-full font-medium cursor-magic2 md:block hidden hover:scale-110 transition-transform cursor-pointer">
+                    Inscription
+                </button>
+                
+                <label for="menu-toggle" class="md:hidden text-gray-700 hover:text-purple-600 transition-colors cursor-pointer p-1">
+                    <i class="fas fa-bars text-2xl"></i>
+                </label>
+            </div>
+        </div>
+
+        <div class="fixed inset-0 z-50 hidden peer-checked:flex flex-col  backdrop-blur-xl animate-fade-in md:hidden">
+            
+            <div class="container mx-auto px-6 py-4 flex justify-end items-center">
+                 <label for="menu-toggle" class="text-gray-800 hover:text-purple-600 cursor-pointer p-1 transition-transform hover:rotate-90">
+                    <i class="fas fa-times text-3xl"></i>
+                </label>
+            </div>
+
+            <div class="flex flex-col gap-6 px-8 w-full max-w-sm mx-auto mt-10">
+                
+                <div class="bg-white rounded-full flex items-center px-5 py-4 shadow-lg ring-1 ring-gray-100">
+                    <input class="bg-transparent outline-none flex-1 text-lg text-gray-700 placeholder-gray-400" type="text" placeholder="Rechercher...">
+                    <i class="fas fa-search text-purple-600 text-xl"></i>
+                </div>
+
+                <div class="flex flex-col gap-4 mt-4">
+                    <button class="w-full py-4 bg-white border-2 border-purple-600 text-purple-600 rounded-full font-bold text-lg shadow-md hover:bg-purple-50 active:scale-95 transition-all">
+                        Connexion
+                    </button>
+
+                    <button class="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:opacity-95 active:scale-95 transition-all">
+                        Inscription
+                    </button>
+                </div>
+            </div>
+            
+            <div class="flex-1"></div>
+        </div>
+
+    </nav>
+
+
+    
+</header>
+
+        <main class="relative h-screen flex items-center justify-center overflow-hidden ">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-700 to-pink-600"></div>
+            <div class="absolute inset-0 opacity-20">
+                <div class="absolute top-20 left-20 w-72 h-72 bg-white rounded-full blur-3xl"></div>
+                <div class="absolute bottom-20 right-20 w-96 h-96 bg-pink-300 rounded-full blur-3xl"></div>
+            </div>
+            <div class="relative text-center text-white px-6 animate-slide-up ">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 ">Klivio, l'allié de votre progression</h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90 ">Les meilleures formations sur le développement personnel</p>
+                <button class="px-8 py-4 bg-white hover:bg-black hover:text-white text-purple-600 rounded-full font-semibold hover:shadow-3xl transition-transform hover:scale-110 hover:duration-600">En savoir plus</button>
+            </div>
+        </main>
+
+        <section class="py-20 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-extrabold lg:font-bold md:font-bold text-gray-800 text-center mb-12 uppercase reveal">Les formations populaires</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:reveal md:reveal">
+                
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-br from-purple-400 to-pink-400 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">29,99 €</span>
+                            <span class="text-gray-400 line-through ml-2 text-sm">59,99€</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Parler en public</h4>
+                        <p class="text-sm text-gray-600 mb-3">Sonia Lefèvre | Coach prise de parole</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        </div>
+                        <div><p>Gagnez en aisance et captez votre auditoire</p></div>
+                    </div>        
+                </div> 
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-br from-purple-400 to-pink-400 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">19,99 €</span>
+                            <span class="text-gray-400 line-through ml-2 text-sm">39,99€</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Gérer le stress</h4>
+                        <p class="text-sm text-gray-600 mb-3">Lucie Garnier | Formatrice</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <div><p>Apprenez à rester serein face aux défis</p></div>
+                    </div>        
+                </div>
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-br from-purple-400 to-pink-400 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">9,99 €</span>
+                            <span class="text-gray-400 line-through ml-2 text-sm">19,99€</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Travailler en équipe</h4>
+                        <p class="text-sm text-gray-600 mb-3">David Moreau | Expert</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>Collaborez efficacement, même à distance</p>
+                    </div>
+                </div>
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-br from-purple-400 to-pink-400 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">29,99 €</span>
+                            <span class="text-gray-400 line-through ml-2 text-sm">59,99€</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Gérer son temps</h4>
+                        <p class="text-sm text-gray-600 mb-3">Claire Dumas | Coach organisation</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        </div>
+                        <p>Optimisez vos journées et gagnez en efficacité</p>
+                    </div>
+                </div>
+            </div>      
+        </section>   
+        
+        <div class="flex justify-center items-center w-full mb-10 reveal">
+            <button class="px-8 py-4 bg-white hover:bg-black hover:text-white shadow-lg rounded-full transition-transform hover:scale-110 duration-500 cursor-pointer">
+                Voir plus de formations
+            </button>
+        </div>
+
+        <section class="py-20 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-extrabold lg:font-bold md:font-bold text-gray-800 text-center mb-12 uppercase reveal">Les formations récentes</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:reveal md:reveal">
+                
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-r from-emerald-400 to-blue-500 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">15,99 €</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Mieux communiquer</h4>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <div><p>Améliorez vos échanges et votre impact relationnel</p></div>
+                    </div>        
+                </div> 
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-r from-emerald-400 to-blue-500 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">59,99 €</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Maîtriser ses émotions</h4>
+                        <p class="text-sm text-gray-600 mb-3">Amel Benali | Psy. du travail</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <div><p>Développez calme et intelligence émotionnelle</p></div>
+                    </div>        
+                </div>
+
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-r from-emerald-400 to-blue-500 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">49,99 €</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Résoudre les problèmes</h4>
+                        <p class="text-sm text-gray-600 mb-3">Thomas Rivière | Expert</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        </div>
+                        <p>Analysez, décidez et trouvez des solutions durables</p>
+                    </div>
+                </div>
+                
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 cursor-pointer reveal">
+                    <div class="relative overflow-hidden bg-gradient-to-r from-emerald-400 to-blue-500 h-48">
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
+                            <span class="font-bold text-purple-600">39,99 €</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2 text-gray-800">Leadership positif</h4>
+                        <p class="text-sm text-gray-600 mb-3">Marc Nguyen | Consultant</p>
+                        <div class="flex gap-1 text-yellow-400 mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i><i class="fas fa-star text-amber-300"></i>
+                        </div>
+                        <p>Inspirez, motivez et fédérez votre équipe</p>
+                    </div>
+                </div>
+            </div>      
+        </section>  
+        
+        <div class="flex justify-center items-center reveal w-full mb-10">
+            <button class="px-8 py-4 bg-white hover:bg-black hover:text-white shadow-lg rounded-full transition-transform hover:scale-110 duration-500 cursor-pointer">
+                Voir plus de formations
+            </button>
+        </div>
+
+        <section class="py-20 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-extrabold lg:font-bold md:font-bold text-gray-800 text-center mb-12 uppercase reveal ">Avis clients</h2>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-8 pt-10 mx-auto container">
+                <div class="group  rounded-3xl overflow-hidden shadow-lg reveal  transition-all transform hover:-translate-y-3 duration-500 max-w-sm reveal">
+                    <div class="flex items-center justify-center">
+                        <img src="src/assets/images/woman.png" height="50px" width="50px" alt="">
+                    </div>
+                    <div class="flex justify-center mt-5">
+                        <p class="uppercase font-bold">Heloa</p>
+                    </div>
+                    <div class="flex justify-center text-center mt-5">
+                        <p class="italic"><span class="text-2xl">"</span>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
+                            pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire
+                            et la progression est motivante parfait pour se former en autonomie<span class="text-2xl">"</span></p>
+                    </div>
+                    <div class="flex text-amber-400 justify-center mt-5 mb-5">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="group  rounded-3xl overflow-hidden shadow-lg reveal transition-all transform hover:-translate-y-3 duration-500 max-w-sm reveal">
+                    <div class="flex items-center justify-center">
+                        <img src="src/assets/images/men.png" height="50px" width="50px" alt="">
+                    </div>
+                    <div class="flex justify-center mt-5">
+                        <p class="uppercase font-bold">Montassar</p>
+                    </div>
+                    <div class="flex justify-center text-center mt-5">
+                        <p class="italic"><span class="text-2xl">"</span>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
+                            pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire
+                            et la progression est motivante parfait pour se former en autonomie<span class="text-2xl">"</span></p>
+                    </div>
+                    <div class="flex text-amber-400 justify-center mt-5 mb-5">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 md:py-20 px-6 shadow-2xl mt-20 "> 
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16 reveal animate-slide-up transition-all transform hover:-translate-y-3 duration-500">
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 text-center lg:text-left mb-10 uppercase reveal animate-slide-left">
+                        Les avantages klivo
+                    </h2>
+                    <div class="flex flex-col gap-6 text-lg md:text-xl animate-slide-left">
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-chart-line text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Suivi de sa progression</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-clipboard-question text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Exercices et QCM pour la mise en pratique</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-file-pdf text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Possibilité de télécharger/imprimer les formations</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-circle-check text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Contenu qualitatif et vérifié</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-clock text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Suivi en autonomie, 24h/24, 7j/7</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-comments text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Espaces d’échanges dédiés pour poser ses questions</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 flex justify-center lg:justify-start mt-10 lg:mt-0 animate-slide-right">
+                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/avantages.png" alt="Avantages Klivo">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 md:py-20 px-6  mt-20 rounded-3xl reveal"> 
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16 reveal animate-slide-up transition-all transform hover:-translate-y-3 duration-500">
+                <div class="w-full lg:w-1/2 flex justify-center lg:justify-start mt-10 lg:mt-0 animate-slide-right order-2 lg:order-1">
+                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/become-author.png"  alt="Devenir auteur Klivo">
+                </div>
+                <div class="w-full lg:w-1/2 order-1 lg:order-2">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 text-center lg:text-left mb-10 uppercase reveal animate-slide-left">
+                        Créez vos formations avec Klivio
+                    </h2>
+                    <div class="flex flex-col gap-6 text-lg md:text-xl animate-slide-left">
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-percent text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Commission unique, au pourcentage sur les ventes</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-rocket text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Mise en avant sur la plateforme</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-sliders text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Contrôle total sur le cours : contenu, prix</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-list-check text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Fonctionnalités avancées : espace commentaires,possibilité de créer des QCM, exercices, vidéos,téléchargement en PDF...</span>
+                        </p>
+                        <p class="flex items-start justify-start gap-4">
+                            <i class="fa-solid fa-copyright text-emerald-400/70 shrink-0 mt-1"></i>
+                            <span>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col md:flex-row min-h-[1000px] rounded-4xl mt-30 reveal">
+            <div class="w-full md:w-1/2 flex items-center justify-center p-8 md:p-16 reveal animate-slide-left">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 uppercase">
+                        À PROPOS DE KLIVIO
+                    </h2>
+                    <p class="text-gray-700 text-lg mb-4 mt-20">
+                        Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre
+                        approche éducative. Nous nous engageons à assurer une rémunération
+                        équitable pour les créateurs de contenu, reconnaissant la qualité de leur
+                        travail.
+                    </p>
+                    <p class="text-gray-700 text-lg mt-10">
+                        Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
+                        nécessaire pour explorer divers sujets. La transparence est au cœur de notre
+                        démarche, garantissant une clarté totale sur les formations que les
+                        instructeurs proposent.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2  flex items-center justify-center p-8 mt-20 lg:mt-0 reveal animate-slide-right reveal">
+                <h1 class="text-9xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 hover:scale-100 transition-transform bg-clip-text text-transparent cursor-pointer">KLIVO.</h1>
+            </div>
+        </section>
+
+        <section class="mt-0 mb-20 w-full rounded-4xl reveal">
+            <div class="isolate  px-6 py-24 sm:py-32 lg:px-8 w-full">
+                <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+                    <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-1/2 -z-10 aspect-1155/678 w-144.5 max-w-none -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-40rem)] sm:w-288.75"></div>
+                </div>
+                <div class="mx-auto max-w-2xl text-center">
+                    <h2 class="text-4xl font-semibold tracking-tight text-balance  sm:text-5xl">Nous contacter</h2>
+                </div>
+                <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                        <div>
+                            <label for="first-name" class="block text-sm/6 font-semibold ">Nom</label>
+                            <div class="mt-2.5">
+                                <input id="first-name" type="text" name="first-name" placeholder="Nom" autocomplete="given-name" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base  outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500 " />
+                            </div>
+                        </div>
+                        <div>
+                            <label for="last-name" class="block text-sm/6 font-semibold ">Prénom</label>
+                            <div class="mt-2.5">
+                                <input id="last-name" type="text" name="last-name" placeholder="Prénom" autocomplete="family-name" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base  outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500" />
+                            </div>
+                        </div>
+                        
+                        <div class="sm:col-span-2">
+                            <label for="email" class="block text-sm/6 font-semibold ">Email</label>
+                            <div class="mt-2.5">
+                                <input id="email" type="email" name="email" autocomplete="email" placeholder="Email" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base  outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500" />
+                            </div>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="phone-number" class="block text-sm/6 font-semibold ">Téléphone</label>
+                            <div class="mt-2.5">
+                                <div class="flex rounded-md bg-white/5 outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500">
+                                    <div class="grid shrink-0 grid-cols-1 focus-within:relative">
+                                        <select id="country" name="country" autocomplete="country" aria-label="Country" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6">
+                                            <option>FR</option>
+                                            <option>BE</option>
+                                            <option>CH</option>
+                                        </select>
+                                        <svg viewBox="0 0 16 16" fill="currentColor" data-slot="icon" aria-hidden="true" class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-400 sm:size-4">
+                                            <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <input id="phone-number" type="text" name="phone-number" placeholder="+33" class="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base  placeholder:text-gray-500 focus:outline-none sm:text-sm/6" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message" class="block text-sm/6 font-semibold ">Message</label>
+                            <div class="mt-2.5">
+                                <textarea id="message" name="message" rows="4" placeholder="Votre message" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base  outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500"></textarea>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="mt-10">
+                        <button type="submit" class="block w-full rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs bg-gradient-to-r from-purple-600 to-pink-600 cursor-pointer"><a href="">Envoyé</a></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+<footer class="bg-[#fffbeb] text-gray-600 w-full relative pt-10 reveal">
+    
+
+    <div class="relative container mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+            
+            <div class="space-y-6 ">
+                <a href="#" class="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:scale-110 transition-transform">Klivo.</a>
+                <div class="flex gap-4 mt-5">
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#1877f2] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
+                        <i class="fab fa-facebook-f text-black "></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#000000] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
+                        <i class="fa-brands fa-x-twitter text-black hover:text-white"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
+                        <i class="fab fa-instagram text-black"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#0a66c2] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
+                        <i class="fab fa-linkedin-in text-black"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold mb-6 uppercase text-gray-900">Formations</h4>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Développement personnel</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Communication</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Leadership</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Gestion du stress</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Toutes les formations</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold mb-6 uppercase text-gray-900">À propos</h4>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Notre mission</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Devenir formateur</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Carrières</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Nous contacter</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-xl font-bold mb-6 uppercase text-gray-900">Support</h4>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">FAQ</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Conditions d'utilisation</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-purple-600 transition-colors hover:translate-x-1 inline-block duration-300">Mentions légales</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-200 my-8"></div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 ">
+            <p class="text-gray-500 text-sm font-bold"> © 2025 Klivio. Tous droits réservés.
+</p>
+        </div>
+    </div>
+</footer>
+                    
+</body>
+</html>
