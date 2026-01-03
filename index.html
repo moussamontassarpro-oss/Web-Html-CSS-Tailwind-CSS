@@ -24,8 +24,8 @@
             </div>
             
             <div class="items-center rounded-full bg-gray-200 hover:bg-gray-300 transition-colors hidden md:flex gap-3 px-4 py-2 flex-1 max-w-md mx-4 lg:mx-8 group animate-slide-down">
-                <input class="bg-transparent outline-none flex-1 w-full min-w-0 text-gray-700 placeholder-gray-400 cursor-magic3" type="text" placeholder="Rechercher..."> 
-                <i class="fas fa-search text-gray-700 group-hover:text-pink-600 transition-colors cursor-pointer group-hover:scale-105"></i>
+                <input class="bg-transparent outline-none flex-1 w-full min-w-0 text-gray-700 placeholder-gray-400 cursor-magic3" type="text" placeholder="Rechercher..." aria-label="Rechercher une formation"> 
+                <i class="fas fa-search text-gray-700 group-hover:text-pink-600 transition-colors cursor-pointer group-hover:scale-105" aria-hidden="true"></i>
             </div>
             
             <div class="flex items-center gap-4 animate-slide-right">
@@ -36,8 +36,8 @@
                     Inscription
                 </button>
                 
-                <label for="menu-toggle" class="md:hidden text-gray-700 hover:text-purple-600 transition-colors cursor-pointer p-1">
-                    <i class="fas fa-bars text-2xl"></i>
+                <label for="menu-toggle" class="md:hidden text-gray-700 hover:text-purple-600 transition-colors cursor-pointer p-1" aria-label="Ouvrir le menu">
+                    <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
                 </label>
             </div>
         </div>
@@ -45,16 +45,16 @@
         <div class="fixed inset-0 z-50 hidden peer-checked:flex flex-col  backdrop-blur-xl animate-fade-in md:hidden">
             
             <div class="container mx-auto px-6 py-4 flex justify-end items-center">
-                 <label for="menu-toggle" class="text-gray-800 hover:text-purple-600 cursor-pointer p-1 transition-transform hover:rotate-90">
-                    <i class="fas fa-times text-3xl"></i>
+                 <label for="menu-toggle" class="text-gray-800 hover:text-purple-600 cursor-pointer p-1 transition-transform hover:rotate-90" aria-label="Fermer le menu">
+                    <i class="fas fa-times text-3xl" aria-hidden="true"></i>
                 </label>
             </div>
 
             <div class="flex flex-col gap-6 px-8 w-full max-w-sm mx-auto mt-10">
                 
                 <div class="bg-white rounded-full flex items-center px-5 py-4 shadow-lg ring-1 ring-gray-100">
-                    <input class="bg-transparent outline-none flex-1 text-lg text-gray-700 placeholder-gray-400" type="text" placeholder="Rechercher...">
-                    <i class="fas fa-search text-purple-600 text-xl"></i>
+                    <input class="bg-transparent outline-none flex-1 text-lg text-gray-700 placeholder-gray-400" type="text" placeholder="Rechercher..." aria-label="Rechercher une formation">
+                    <i class="fas fa-search text-purple-600 text-xl" aria-hidden="true"></i>
                 </div>
 
                 <div class="flex flex-col gap-4 mt-4">
@@ -107,8 +107,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Parler en public</h4>
                         <p class="text-sm text-gray-600 mb-3">Sonia Lefèvre | Coach prise de parole</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 4.5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i>
                         </div>
                         <div><p>Gagnez en aisance et captez votre auditoire</p></div>
                     </div>        
@@ -125,8 +125,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Gérer le stress</h4>
                         <p class="text-sm text-gray-600 mb-3">Lucie Garnier | Formatrice</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <div><p>Apprenez à rester serein face aux défis</p></div>
                     </div>        
@@ -143,8 +143,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Travailler en équipe</h4>
                         <p class="text-sm text-gray-600 mb-3">David Moreau | Expert</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <p>Collaborez efficacement, même à distance</p>
                     </div>
@@ -161,8 +161,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Gérer son temps</h4>
                         <p class="text-sm text-gray-600 mb-3">Claire Dumas | Coach organisation</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 4.5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i>
                         </div>
                         <p>Optimisez vos journées et gagnez en efficacité</p>
                     </div>
@@ -191,8 +191,8 @@
                     </div>
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Mieux communiquer</h4>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <div><p>Améliorez vos échanges et votre impact relationnel</p></div>
                     </div>        
@@ -208,8 +208,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Maîtriser ses émotions</h4>
                         <p class="text-sm text-gray-600 mb-3">Amel Benali | Psy. du travail</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                         </div>
                         <div><p>Développez calme et intelligence émotionnelle</p></div>
                     </div>        
@@ -225,8 +225,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Résoudre les problèmes</h4>
                         <p class="text-sm text-gray-600 mb-3">Thomas Rivière | Expert</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 4.5 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i>
                         </div>
                         <p>Analysez, décidez et trouvez des solutions durables</p>
                     </div>
@@ -242,8 +242,8 @@
                     <div class="p-6">
                         <h4 class="font-bold text-xl mb-2 text-gray-800">Leadership positif</h4>
                         <p class="text-sm text-gray-600 mb-3">Marc Nguyen | Consultant</p>
-                        <div class="flex gap-1 text-yellow-400 mb-3">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i><i class="fas fa-star text-amber-300"></i>
+                        <div class="flex gap-1 text-yellow-400 mb-3" aria-label="Note: 4 étoiles sur 5">
+                            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i>
                         </div>
                         <p>Inspirez, motivez et fédérez votre équipe</p>
                     </div>
@@ -265,35 +265,35 @@
             <div class="flex flex-wrap justify-center gap-8 pt-10 mx-auto container">
                 <div class="group  rounded-3xl overflow-hidden shadow-lg reveal  transition-all transform hover:-translate-y-3 duration-500 max-w-sm reveal">
                     <div class="flex items-center justify-center">
-                        <img src="src/assets/images/woman.png" height="50px" width="50px" alt="">
+                        <img src="src/assets/images/woman.png" height="50" width="50" alt="Photo de profil de Heloa">
                     </div>
                     <div class="flex justify-center mt-5">
                         <p class="uppercase font-bold">Heloa</p>
                     </div>
                     <div class="flex justify-center text-center mt-5">
-                        <p class="italic"><span class="text-2xl">"</span>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
-                            pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire
+                        <p class="italic"><span class="text-2xl">"</span>J'ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
+                            pratiques qui m'ont permis d'appliquer immédiatement les notions. L'interface est claire
                             et la progression est motivante parfait pour se former en autonomie<span class="text-2xl">"</span></p>
                     </div>
-                    <div class="flex text-amber-400 justify-center mt-5 mb-5">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <div class="flex text-amber-400 justify-center mt-5 mb-5" aria-label="Note: 5 étoiles sur 5">
+                        <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
                     </div>
                 </div>
 
                 <div class="group  rounded-3xl overflow-hidden shadow-lg reveal transition-all transform hover:-translate-y-3 duration-500 max-w-sm reveal">
                     <div class="flex items-center justify-center">
-                        <img src="src/assets/images/men.png" height="50px" width="50px" alt="">
+                        <img src="src/assets/images/men.png" height="50" width="50" alt="Photo de profil de Montassar">
                     </div>
                     <div class="flex justify-center mt-5">
                         <p class="uppercase font-bold">Montassar</p>
                     </div>
                     <div class="flex justify-center text-center mt-5">
-                        <p class="italic"><span class="text-2xl">"</span>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
-                            pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire
+                        <p class="italic"><span class="text-2xl">"</span>J'ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets
+                            pratiques qui m'ont permis d'appliquer immédiatement les notions. L'interface est claire
                             et la progression est motivante parfait pour se former en autonomie<span class="text-2xl">"</span></p>
                     </div>
-                    <div class="flex text-amber-400 justify-center mt-5 mb-5">
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-amber-300"></i>
+                    <div class="flex text-amber-400 justify-center mt-5 mb-5" aria-label="Note: 4.5 étoiles sur 5">
+                        <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star text-amber-300" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -307,33 +307,33 @@
                     </h2>
                     <div class="flex flex-col gap-6 text-lg md:text-xl animate-slide-left">
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-chart-line text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-chart-line text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Suivi de sa progression</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-clipboard-question text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-clipboard-question text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Exercices et QCM pour la mise en pratique</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-file-pdf text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-file-pdf text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Possibilité de télécharger/imprimer les formations</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-circle-check text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-circle-check text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Contenu qualitatif et vérifié</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-clock text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-clock text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Suivi en autonomie, 24h/24, 7j/7</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-comments text-emerald-400/70 shrink-0 mt-1"></i>
-                            <span>Espaces d’échanges dédiés pour poser ses questions</span>
+                            <i class="fa-solid fa-comments text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
+                            <span>Espaces d'échanges dédiés pour poser ses questions</span>
                         </p>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2 flex justify-center lg:justify-start mt-10 lg:mt-0 animate-slide-right">
-                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/avantages.png" alt="Avantages Klivo">
+                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/avantages.png" alt="Illustration des avantages Klivio - Suivi personnalisé et formations de qualité">
                 </div>
             </div>
         </section>
@@ -341,7 +341,7 @@
         <section class="py-12 md:py-20 px-6  mt-20 rounded-3xl reveal"> 
             <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16 reveal animate-slide-up transition-all transform hover:-translate-y-3 duration-500">
                 <div class="w-full lg:w-1/2 flex justify-center lg:justify-start mt-10 lg:mt-0 animate-slide-right order-2 lg:order-1">
-                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/become-author.png"  alt="Devenir auteur Klivo">
+                    <img class="rounded-3xl w-full h-64 lg:h-[500px] object-cover shadow-2xl" src="src/assets/images/become-author.png"  alt="Illustration devenir formateur sur Klivio - Créez vos propres formations">
                 </div>
                 <div class="w-full lg:w-1/2 order-1 lg:order-2">
                     <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 text-center lg:text-left mb-10 uppercase reveal animate-slide-left">
@@ -349,24 +349,24 @@
                     </h2>
                     <div class="flex flex-col gap-6 text-lg md:text-xl animate-slide-left">
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-percent text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-percent text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Commission unique, au pourcentage sur les ventes</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-rocket text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-rocket text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Mise en avant sur la plateforme</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-sliders text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-sliders text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Contrôle total sur le cours : contenu, prix</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-list-check text-emerald-400/70 shrink-0 mt-1"></i>
+                            <i class="fa-solid fa-list-check text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
                             <span>Fonctionnalités avancées : espace commentaires,possibilité de créer des QCM, exercices, vidéos,téléchargement en PDF...</span>
                         </p>
                         <p class="flex items-start justify-start gap-4">
-                            <i class="fa-solid fa-copyright text-emerald-400/70 shrink-0 mt-1"></i>
-                            <span>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</span>
+                            <i class="fa-solid fa-copyright text-emerald-400/70 shrink-0 mt-1" aria-hidden="true"></i>
+                            <span>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d'auteur</span>
                         </p>
                     </div>
                 </div>
@@ -432,7 +432,7 @@
                             <div class="mt-2.5">
                                 <div class="flex rounded-md bg-white/5 outline-1 -outline-offset-1 outline-black/50 placeholder:text-gray-500">
                                     <div class="grid shrink-0 grid-cols-1 focus-within:relative">
-                                        <select id="country" name="country" autocomplete="country" aria-label="Country" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6">
+                                        <select id="country" name="country" autocomplete="country" aria-label="Pays" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6">
                                             <option>FR</option>
                                             <option>BE</option>
                                             <option>CH</option>
@@ -468,17 +468,17 @@
             <div class="space-y-6 ">
                 <a href="#" class="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:scale-110 transition-transform">Klivo.</a>
                 <div class="flex gap-4 mt-5">
-                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#1877f2] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
-                        <i class="fab fa-facebook-f text-black "></i>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#1877f2] hover:scale-90 transition-all duration-500 flex items-center justify-center group" aria-label="Suivez-nous sur Facebook">
+                        <i class="fab fa-facebook-f text-black " aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#000000] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
-                        <i class="fa-brands fa-x-twitter text-black hover:text-white"></i>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#000000] hover:scale-90 transition-all duration-500 flex items-center justify-center group" aria-label="Suivez-nous sur X (Twitter)">
+                        <i class="fa-brands fa-x-twitter text-black hover:text-white" aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
-                        <i class="fab fa-instagram text-black"></i>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:scale-90 transition-all duration-500 flex items-center justify-center group" aria-label="Suivez-nous sur Instagram">
+                        <i class="fab fa-instagram text-black" aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#0a66c2] hover:scale-90 transition-all duration-500 flex items-center justify-center group">
-                        <i class="fab fa-linkedin-in text-black"></i>
+                    <a href="#" class="w-10 h-10 rounded-full bg-purple-50 hover:bg-[#0a66c2] hover:scale-90 transition-all duration-500 flex items-center justify-center group" aria-label="Suivez-nous sur LinkedIn">
+                        <i class="fab fa-linkedin-in text-black" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
